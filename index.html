@@ -4,19 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WebStudio</title>
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
     <!--Шапка сайта-->
     <header>
         <nav>
-            <a href="./index.html">
-                WebStudio
+            <a href="./index.html" class="logo">
+                <span class="logo-web">Web</span>Studio
             </a>
             
-            <ul>
-                <li> <a href="./index.html">Студия</a></li>
-                <li> <a href="./portfolio.html">Портфолио</a></li>
-                <li> <a href="">Контакты</a></li>
+            <ul class="site-nav">
+                <li> <a href="./index.html" class="link">Студия</a></li>
+                <li> <a href="./portfolio.html" class="link">Портфолио</a></li>
+                <li> <a href="" class="link">Контакты</a></li>
             </ul>
         </nav>
        
@@ -39,7 +40,7 @@
         
             <section>
                 <h1>Эффективные решения для вашего бизнеса</h1>
-                <a href="">Заказать услугу</a>
+                <button type="button">Заказать услугу</button>
             </section>
         
         <!--Особенности-->
@@ -92,22 +93,22 @@
                 <li>
                     <img src="./images/product-designer.jpg" alt="член команды" width="270">
                     <h3>Игорь Демьяненко</h3>
-                    <p>Product Designer</p>
+                    <p lang="en">Product Designer</p>
                 </li>
                 <li>
                     <img src="./images/frontend-developer.jpg" alt="член команды" width="270">
                     <h3>Ольга Репина</h3>
-                    <p>Frontend Developer</p>
+                    <p lang="en">Frontend Developer</p>
                 </li>
                 <li>
                     <img src="./images/marketing.jpg" alt="член команды" width="270">
                     <h3>Николай Тарасов</h3>
-                    <p>Marketing</p>
+                    <p lang="en">Marketing</p>
                 </li>
                 <li>
                     <img src="./images/ui-designer.jpg" alt="член команды" width="270">
                     <h3>Михаил Ермаков</h3>
-                    <p>UI Designer</p>
+                    <p lang="en">UI Designer</p>
                 </li>
             </ul>
         </section>
@@ -115,11 +116,13 @@
 
     <!--Подвал-->
     <footer>
-        <a href="/">
-            WebStudio
+        <a href="./index.html" class="logo-footer">
+            <span class="logo-web">Web</span>Studio
         </a>
-        <address>г. Киев, пр-т Леси Украинки, 26
-        
+        <address>
+            <a href="https://goo.gl/maps/XajfWDtzmyo4P4pL7" target="blanck" rel="noopener nooreferrer">
+                г. Киев, пр-т Леси Украинки, 26</a>
+                    
             <ul>
                 <li>
                     <a href="mailto:info@devstudio.com">info@devstudio.com</a>

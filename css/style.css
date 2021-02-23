@@ -1,0 +1,52 @@
+body {
+  background-color: #e5e5e5;
+  color: #757575;
+}
+/*цвет заголовка веб 2196F3 , студия 000000 шрифт Raleway; font-style: normal; font-weight: 700;
+/навигация цвет основной #212121 позиционирования цвет 2196F3 шрифт Roboto  500
+/ контакты цвет основной #757575 позийионирования 2196F3 шрифт Roboto  500
+/ заголовок h1 FFFFFF шрифт Roboto  900
+/ кнопка текст FFFFFF шрифт Roboto  700  кнопки цвет 2196F3 фокус 188CE8
+h2 цвет #212121  шрифт Roboto  700
+h3 цвет #212121  шрифт Roboto  500
+текст цвет 757575 шрифт Roboto  400
+тег адресс цвет FFFFFF шрифт Roboto  400 
+цвет заголовка в футуре веб 2196F3 , студия FFFFFF шрифт Raleway; font-style: normal; font-weight: 700;
+цвет кнопки фильтров F5F4FA цвет текста 212121 шрифт Roboto  500  фокус кнопка #2196F3 цвет текста FFFFFF
+основной цвет фона E5E5E5
+основной цвет текста #757575
+*/
+.logo {
+  color: #000000;
+}
+
+.logo-web {
+  color: #2196f3;
+}
+
+.logo-footer {
+  color: #ffffff;
+}
+
+ul {
+  list-style: none;
+}
+
+.site-nav .link {
+  color: #212121;
+}
+
+.site-nav .link:hover {
+  color: #2196f3;
+}
+
+h1 {
+  color: #ffffff;
+}
+
+h2 {
+  color: #212121;
+}
+h3 {
+  color: #212121;
+}
