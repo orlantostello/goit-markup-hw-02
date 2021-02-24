@@ -75,22 +75,33 @@ h3 цвет #212121  шрифт Roboto  500
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  color: #000000;
 }
 
 .logo-web {
   color: #2196f3;
 }
 
-.logo-footer {
+.logo-light-theme {
+  color: #000000;
+}
+.logo-dark-theme {
   color: #ffffff;
 }
 
-ul {
-  list-style: none;
-}
+.titel {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
 
-.site-nav .link {
+  color: #212121;
+}
+/* ============= END COMPONENTS ============= */
+
+/* ============= HEADER ============= */
+
+.nav-link {
   font-family: var(--main-font);
   font-weight: 500;
   font-size: 14px;
@@ -99,20 +110,88 @@ ul {
   color: #212121;
 }
 
-/* .site-nav .link:hover, */
-/* .site-nav .link:focus { */
-/* color: var(--accent-color); */
-/* } */
+.nav-link:hover,
+.nav-link:focus {
+  color: var(--accent-color);
+}
 
-h1 {
+.contact-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+
+  color: #757575;
+}
+
+.contact-link:hover,
+.contact-link:focus {
+  color: var(--accent-color);
+}
+
+/* ============= END HEADER ============= */
+
+/* ============= HERO ============= */
+
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+
   color: #ffffff;
 }
 
-.section-titel {
-  font-family: var(--main-font);
+/* ============= END HERO ============= */
+
+/* ============= FEATURES ============= */
+
+.features-titel {
   font-weight: 700;
-  font-size: 36px;
-  line-height: 1.16;
+  font-size: 14px;
+  line-height: 1.14;
   letter-spacing: 0.03em;
+  text-transform: uppercase;
+
   color: #212121;
 }
+
+.features-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+
+  color: #757575;
+}
+
+/* ============= END FEATURES ============= */
+
+/* ============= What are we doing ============= */
+
+/* ============= END What are we doing ============= */
+
+/* ============= OUR TEAM ============= */
+
+.team-list-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #212121;
+}
+
+.team-list-position {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #757575;
+}
+/* ============= END OUR TEAM ============= */
