@@ -1,6 +1,25 @@
+:root {
+  --main-font: "Roboto", sans-serif;
+  --secondary-font: "Raleway", sans-serif;
+  --accent-color: #2196f3;
+}
+
 body {
+  font-family: var(--main-font);
   background-color: #e5e5e5;
   color: #757575;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.list {
+  list-style: none;
+}
+
+.address {
+  font-style: normal;
 }
 /*цвет заголовка веб 2196F3 , студия 000000 шрифт Raleway; font-style: normal; font-weight: 700;
 /навигация цвет основной #212121 позиционирования цвет 2196F3 шрифт Roboto  500
@@ -16,6 +35,40 @@ h3 цвет #212121  шрифт Roboto  500
 основной цвет фона E5E5E5
 основной цвет текста #757575
 */
+
+/* ============= COMPONENTS ============= */
+.modal-btn {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  cursor: pointer;
+
+  color: #ffffff;
+}
+
+.modal-btn:hover,
+.modal-btn:focus {
+  background-color: var(--accent-color);
+  color: #ffffff;
+}
+
+.modal-btn-filter {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  cursor: pointer;
+
+  color: #212121;
+}
+
+.modal-btn-filter:hover,
+.modal-btn-filter:focus {
+  background-color: var(--accent-color);
+  color: #ffffff;
+}
+
 .logo {
   ont-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -38,7 +91,7 @@ ul {
 }
 
 .site-nav .link {
-  font-family: "Roboto", sans-serif;
+  font-family: var(--main-font);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -46,17 +99,17 @@ ul {
   color: #212121;
 }
 
-.site-nav .link:hover,
-.site-nav .link:focus {
-  color: #2196f3;
-}
+/* .site-nav .link:hover, */
+/* .site-nav .link:focus { */
+/* color: var(--accent-color); */
+/* } */
 
 h1 {
   color: #ffffff;
 }
 
 .section-titel {
-  font-family: "Roboto", sans-serif;
+  font-family: var(--main-font);
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
