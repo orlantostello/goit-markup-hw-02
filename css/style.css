@@ -7,7 +7,6 @@
 body {
   font-family: var(--main-font);
   background-color: #e5e5e5;
-  color: #757575;
 }
 
 .link {
@@ -21,30 +20,18 @@ body {
 .address {
   font-style: normal;
 }
-/*цвет заголовка веб 2196F3 , студия 000000 шрифт Raleway; font-style: normal; font-weight: 700;
-/навигация цвет основной #212121 позиционирования цвет 2196F3 шрифт Roboto  500
-/ контакты цвет основной #757575 позийионирования 2196F3 шрифт Roboto  500
-/ заголовок h1 FFFFFF шрифт Roboto  900
-/ кнопка текст FFFFFF шрифт Roboto  700  кнопки цвет 2196F3 фокус 188CE8
-h2 цвет #212121  шрифт Roboto  700
-h3 цвет #212121  шрифт Roboto  500
-текст цвет 757575 шрифт Roboto  400
-тег адресс цвет FFFFFF шрифт Roboto  400 
-цвет заголовка в футуре веб 2196F3 , студия FFFFFF шрифт Raleway; font-style: normal; font-weight: 700;
-цвет кнопки фильтров F5F4FA цвет текста 212121 шрифт Roboto  500  фокус кнопка #2196F3 цвет текста FFFFFF
-основной цвет фона E5E5E5
-основной цвет текста #757575
-*/
 
 /* ============= COMPONENTS ============= */
+
 .modal-btn {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
+  display: flex;
+  align-items: center;
+  text-align: center;
   letter-spacing: 0.06em;
-  text-transform: uppercase;
   cursor: pointer;
-
   color: #ffffff;
 }
 
@@ -58,9 +45,12 @@ h3 цвет #212121  шрифт Roboto  500
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
   cursor: pointer;
 
   color: #212121;
+  background-color: #f5f4fa;
 }
 
 .modal-btn-filter:hover,
@@ -70,7 +60,7 @@ h3 цвет #212121  шрифт Roboto  500
 }
 
 .logo {
-  ont-family: "Raleway", sans-serif;
+  font-family: var(--secondary-font);
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
@@ -195,3 +185,47 @@ h3 цвет #212121  шрифт Roboto  500
   color: #757575;
 }
 /* ============= END OUR TEAM ============= */
+
+/* ============= FOOTER ============= */
+
+.address-list-link {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+
+  color: #ffffff;
+}
+
+.contact-list-link {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+
+  color: rgba(255, 255, 255, 0.6);
+}
+
+/* ============= END FOOTER ============= */
+
+/* ============= GALLERY ============= */
+
+.gallery-list-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+
+  color: #212121;
+}
+
+.gallery-list-position {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+
+  color: #757575;
+}
+
+/* ============= END GALLERY  ============= */
