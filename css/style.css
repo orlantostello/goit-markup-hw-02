@@ -2,11 +2,15 @@
   --main-font: "Roboto", sans-serif;
   --secondary-font: "Raleway", sans-serif;
   --accent-color: #2196f3;
+  --title-color: #212121;
+  --primary-text-color: #757575;
+  --primary-background-color: #ffffff;
 }
 
 body {
   font-family: var(--main-font);
-  background-color: #e5e5e5;
+  background-color: var(--primary-background-color);
+  color: var(--primary-text-color);
 }
 
 .link {
@@ -32,13 +36,14 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
   cursor: pointer;
-  color: #ffffff;
+  color: var(--primary-background-color);
+  background-color: var(--accent-color);
 }
 
 .modal-btn:hover,
 .modal-btn:focus {
-  background-color: var(--accent-color);
-  color: #ffffff;
+  background-color: #188ce8;
+  color: var(--primary-background-color);
 }
 
 .modal-btn-filter {
@@ -49,14 +54,14 @@ body {
   letter-spacing: 0.03em;
   cursor: pointer;
 
-  color: #212121;
+  color: var(--title-color);
   background-color: #f5f4fa;
 }
 
 .modal-btn-filter:hover,
 .modal-btn-filter:focus {
   background-color: var(--accent-color);
-  color: #ffffff;
+  color: var(--primary-background-color);
 }
 
 .logo {
@@ -75,7 +80,7 @@ body {
   color: #000000;
 }
 .logo-dark-theme {
-  color: #ffffff;
+  color: var(--primary-background-color);
 }
 
 .titel {
@@ -85,7 +90,7 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
 
-  color: #212121;
+  color: var(--title-color);
 }
 /* ============= END COMPONENTS ============= */
 
@@ -97,7 +102,7 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: #212121;
+  color: var(--title-color);
 }
 
 .nav-link:hover,
@@ -111,7 +116,7 @@ body {
   line-height: 1.14;
   letter-spacing: 0.02em;
 
-  color: #757575;
+  color: var(--primary-text-color);
 }
 
 .contact-link:hover,
@@ -122,6 +127,9 @@ body {
 /* ============= END HEADER ============= */
 
 /* ============= HERO ============= */
+.hero {
+  background-color: #2f303a;
+}
 
 .hero-title {
   font-weight: 900;
@@ -131,7 +139,7 @@ body {
   letter-spacing: 0.06em;
   text-transform: uppercase;
 
-  color: #ffffff;
+  color: var(--primary-background-color);
 }
 
 /* ============= END HERO ============= */
@@ -145,7 +153,7 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
 
-  color: #212121;
+  color: var(--title-color);
 }
 
 .features-text {
@@ -153,8 +161,6 @@ body {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-
-  color: #757575;
 }
 
 /* ============= END FEATURES ============= */
@@ -172,7 +178,7 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
 
-  color: #212121;
+  color: var(--title-color);
 }
 
 .team-list-position {
@@ -181,12 +187,14 @@ body {
   line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
-
-  color: #757575;
 }
 /* ============= END OUR TEAM ============= */
 
 /* ============= FOOTER ============= */
+
+.footer {
+  background-color: #2f303a;
+}
 
 .address-list-link {
   font-weight: 400;
@@ -194,7 +202,7 @@ body {
   line-height: 1.71;
   letter-spacing: 0.03em;
 
-  color: #ffffff;
+  color: var(--primary-background-color);
 }
 
 .contact-list-link {
@@ -216,7 +224,7 @@ body {
   line-height: 2;
   letter-spacing: 0.06em;
 
-  color: #212121;
+  color: var(--title-color);
 }
 
 .gallery-list-position {
@@ -224,8 +232,6 @@ body {
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
-
-  color: #757575;
 }
 
 /* ============= END GALLERY  ============= */
