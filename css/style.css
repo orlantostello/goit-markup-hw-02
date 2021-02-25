@@ -5,6 +5,8 @@
   --title-color: #212121;
   --primary-text-color: #757575;
   --primary-background-color: #ffffff;
+  --back-color: #2f303a;
+  --color-filter: #f5f4fa;
 }
 
 body {
@@ -55,7 +57,7 @@ body {
   cursor: pointer;
 
   color: var(--title-color);
-  background-color: #f5f4fa;
+  background-color: var(--color-filter);
 }
 
 .modal-btn-filter:hover,
@@ -73,7 +75,7 @@ body {
 }
 
 .logo-web {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
 .logo-light-theme {
@@ -106,7 +108,8 @@ body {
 }
 
 .nav-link:hover,
-.nav-link:focus {
+.nav-link:focus,
+.nav-link:active {
   color: var(--accent-color);
 }
 
@@ -128,7 +131,7 @@ body {
 
 /* ============= HERO ============= */
 .hero {
-  background-color: #2f303a;
+  background-color: var(--back-color);
 }
 
 .hero-title {
@@ -193,7 +196,7 @@ body {
 /* ============= FOOTER ============= */
 
 .footer {
-  background-color: #2f303a;
+  background-color: var(--back-color);
 }
 
 .address-list-link {
@@ -232,6 +235,7 @@ body {
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
+  color: var(--primary-text-color);
 }
 
 /* ============= END GALLERY  ============= */
