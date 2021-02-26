@@ -178,6 +178,10 @@ body {
 
 /* ============= OUR TEAM ============= */
 
+.team {
+  background-color: var(--color-filter);
+}
+
 .team-list-title {
   font-weight: 500;
   font-size: 16px;
